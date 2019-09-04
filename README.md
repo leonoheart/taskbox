@@ -17,3 +17,15 @@ use plugin to polyfill(mock) the webpack functionality with Jest
 4.reinsatll
 5.check   -->>solved(the cra sometimes have not completed installed)
 6.if not ,check the version of yarn or npm
+*remember: when cra, do not try to manually intall package, this wanna be a version related error
+
+#a tiny coding miss
+store = createStore? error solved, but still on question
+
+#tutorial does not mention how to use the store
+   .addDecorator(story => (
+        <Provider store={store}>
+            {story()}
+        </Provider>))
+
+#cannot add style to a router or Provider cause they are not tag,but how?
