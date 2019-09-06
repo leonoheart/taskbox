@@ -29,3 +29,4 @@ store = createStore? error solved, but still on question
         </Provider>))
 
 #cannot add style to a router or Provider cause they are not tag,but how?
+<div id="root"></div> is in the index.html in src folder
